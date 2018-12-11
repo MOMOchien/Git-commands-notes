@@ -14,6 +14,25 @@
 10. git config --global user.name "your name"
 11. git config --local -l
 ----
+## Fetch And Merge Repo
+(Need create a new repo on GitHub first)
+1. git remote add upstream [URL of repository]
+2. git fetch upstream
+3. git merge upstream/master (--allow-unrelated-histories)
+4. git push origin master
+5. git remote rm upstream
+----
+## Create And Connect New Repo (Local)
+(Need create a new repo on GitHub first)
+1. mkdir [folder name]
+2. cd [.../.../folder name]
+3. touch README.md
+4. git init (it means .git control the situation in this folder)
+5. git add README.md
+6. git commit -m "some texts"
+7. git remote add origin [URL of the new repo you create]
+8. git push -u origin master
+----
 ## Markdown Practice
 
 *hello*
