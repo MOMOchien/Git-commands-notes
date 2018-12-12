@@ -33,6 +33,23 @@
 7. git remote add origin [URL of the new repo you create]
 8. git push -u origin master
 ----
+## Create The Branch And Merge Process
+1. git checkout -b [brach name] 
+    ( == git branch [branch name] and git checkout [branch name])
+2. git branch (show the current branch you stay)
+3. git push origin [branch name]
+4. git clone [URL of repository] -b [branch name]
+5. git status
+6. git add [filename] (git add .)
+7. git commit -m "commit message"
+8. git push origin [branch name]
+9. git checkout master
+10. git merge [beanch name]
+11. git status (need back to local master )
+12. git add .
+13. git commit -m "commit message"
+14. git push origin master
+----
 ## Markdown Practice
 
 *hello*
@@ -46,3 +63,5 @@
 
 [links](http://www.google.com)
 ----
+
+## BRANCH TEST
